@@ -31,7 +31,7 @@ $(document).ready(function () {
         let href = $(this).attr('href');
         let o_top = $(href).offset().top;
         $('html, body').animate({
-            scrollTop: o_top - 100
+            scrollTop: o_top - 70
         }, 500)
     });
 
