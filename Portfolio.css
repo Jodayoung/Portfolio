@@ -673,6 +673,7 @@ h1 span:nth-child(11) {animation-delay: 1.1s;}
     justify-content: space-evenly;
     margin: 100px 0 150px 0;
     flex-wrap: wrap;
+    gap: 14px;
 }
 
 .contact_imgbox >img {
@@ -928,7 +929,7 @@ a > span {
 @media screen and (max-width: 450px) {
 
     #Home {
-        height: 20vh;
+        height: 50vh;
     }
 
     /* 스킬스 */
@@ -952,4 +953,11 @@ a > span {
     .inner_desc {
         padding-left: 0px;
     }
+
+    .sec1 > img {
+        width: auto;
+        height: 100%;
+        position: relative;
+    }
+
 }
