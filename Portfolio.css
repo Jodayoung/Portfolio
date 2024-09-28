@@ -929,7 +929,7 @@ a > span {
 @media screen and (max-width: 450px) {
 
     #Home {
-        height: 50vh;
+        height: 65vh;
     }
 
     /* 스킬스 */
